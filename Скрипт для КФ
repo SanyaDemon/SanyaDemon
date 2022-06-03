@@ -20,23 +20,6 @@ const COMMAND_PREFIX = 10; // Prefix that will be set when thread send to projec
 const WATCHED_PREFIX = 9;
 const CLOSE_PREFIX = 7;
 const buttons = [
-	
-
-	
-
-		
-		
-"+
-
-
-	
-
-
-
-	
-
-    {
-
 	  title: '| От 3 лица |',
 
 	  content:
@@ -45,15 +28,10 @@ const buttons = [
 
 		"[B][CENTER][COLOR=PURPLE][ICODE]Доброго времени суток уважаемый {{ user.name }} [/ICODE][/COLOR][/CENTER][/B]<br><br>"+
 
-		"[B][CENTER][COLOR=lavender]Жалоба составлена от 3-го лица, мы не можем ее рассмотреть.<br>"+
-
-		"[url=https://postimages.org/][img]https://i.postimg.cc/tgD5Xwhj/1618083711121.png[/img][/url]<br>"+
-
-		'[B][CENTER][COLOR=RED][ICODE]Отказано[/ICODE][/COLOR][/CENTER][/B]'
+		"[B][CENTER][COLOR=WHITE]Жалоба составлена от 3-го лица, мы не можем ее рассмотреть.
 	
 
-
-      title: 'Не по форме',
+      title: 'Не по форме'
       content:
 '[CENTER][B][COLOR=rgb(255, 255, 0)][SIZE=5]Здравствуйте, уважаемый игрок![/SIZE][/COLOR]<br><br>' +
 '[COLOR=rgb(209, 213, 216)]Жалоба написана [/COLOR][COLOR=rgb(255, 0, 0)]не по форме[/COLOR][COLOR=rgb(209, 213, 216)], или же нарушает иные правила подачи<br><br>' +
